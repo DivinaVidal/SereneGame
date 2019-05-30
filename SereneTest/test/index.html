@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Detective Game</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/custom.js"></script>
+<style>
+.detective {
+width:800px;
+height:800px; }
+</style>
+</head>
+<body>
+<header class="site-header">
+    <div class="header-bar">
+        <div class="container-fluid">
+            <div class="row align-items-left">
+                <div class="col-20 col-lg-2 order-lg-1">
+                    <div class="site-branding">
+                        <div class="site-title">
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/0/05/Mystery.png" alt="logo"></a>
+                        </div><!-- .site-title -->
+                    </div><!-- .site-branding -->
+                </div><!-- .col -->
+
+                <div class="col-2 col-lg-7 order-3 order-lg-2">
+                    <nav class="site-navigation">
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Games</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav><!-- .site-navigation -->
+                </div><!-- .col -->
+
+                <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
+                    <div class="buy-tickets">
+                      
+                    </div><!-- .buy-tickets -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container-fluid -->
+    </div><!-- .header-bar -->
+<!--
+    <div class="swiper-container hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-date="2019/01/01" style="background: url('images/slideback.jpg') no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    <div class="countdown flex align-items-center">
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dday"></span>
+                                            <label>Days</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dhour"></span>
+                                            <label>Hours</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dmin"></span>
+                                            <label>Minutes</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dsec"></span>
+                                            <label>Seconds</label>
+                                        </div>
+                                    </div>
+
+                                    <h2 class="entry-title">We have the best games. <br>Play Now!</h2>
+                                </div>
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#">Order here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </di
+                </div>
+            </div>
+
+            <div class="swiper-slide" data-date="2019/05/01" style="background: url('images/slideback.jpg') no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    <div class="countdown flex align-items-center">
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dday"></span>
+                                            <label>Days</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dhour"></span>
+                                            <label>Hours</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dmin"></span>
+                                            <label>Minutes</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dsec"></span>
+                                            <label>Seconds</label>
+                                        </div>
+                                    </div>
+
+                                    <h2 class="entry-title">We have the best games. <br>Pre-Order Now!</h2>
+                                </div>
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#">Order here</a>
+                                </div>
+                            </di
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide" data-date="2020/05/01" style="background: url('images/slideback.jpg') no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    <div class="countdown flex align-items-center">
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dday"></span>
+                                            <label>Days</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dhour"></span>
+                                            <label>Hours</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dmin"></span>
+                                            <label>Minutes</label>
+                                        </div>
+
+                                        <div class="countdown-holder flex align-items-baseline">
+                                            <span class="dsec"></span>
+                                            <label>Seconds</label>
+                                        </div>
+                                    </div>
+
+                                    <h2 class="entry-title">We have the best games. <br>Pre-Order Now!</h2>
+                                </div>
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#">Order here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Add Arrows -->
+         <div class="swiper-button-prev flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+        </div>
+
+        <div class="swiper-button-prev flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+        </div>
+    </div>
+</header>
+
+<div class="homepage-info-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-5">
+                <figure>
+                    <img src="https://www.brandcrowd.com/gallery/brands/pictures/picture14867729059925.jpg" class="detective">
+                </figure>
+            </div>
+
+            <div class="col-12 col-md-8 col-lg-7">
+                <header class="entry-header">
+                    <h2 class="entry-title">What is The Mystery League and why choose this game?</h2>
+                </header>
+
+                <div class="entry-content">
+                    <p> The Mystery League is a fun, engaging game that includes mystery, action, and riddle solving. The character(s) are interesting and cool. They make the game exciting and user-friendly. </p>
+                </div>
+
+                <footer class="entry-footer">
+                    <a href="#" class="btn gradient-bg">Read More</a>
+                    <a href="#" class="btn dark">Register Now</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<div class="homepage-featured-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="featured-events-wrap flex flex-wrap justify-content-between">
+                    <div class="event-content-wrap positioning-event-1">
+                        <figure>
+                            <a href="#"><img src="images/Magnyfying Glass-1.JPG" alt="1"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Agent McCool</h3>
+
+            
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-2">
+                        <figure>
+                            <a href="#"><img src="file:///E:/Serene/MAGIC/SereneGame/my_character%20(1).svg" alt="Image" height="320" width="300"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Detective Sarah</h3>
+
+                            <d
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-3">
+                        <figure>
+                            <a href="#"><img src="file:///E:/Serene/MAGIC/SereneGame/my_character%20(2).svg" alt="Image" Height="320" Width="340"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Agent Rebecca</h3>
+
+
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-4 half">
+                        <figure>
+                           
+                        </figure>
+                    </div>
+
+                  
+
+                    <div class="event-content-wrap positioning-event-6 half">
+                        <figure>
+                          
+                        </figure>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-7">
+                        <figure>
+                          
+                        </figure>
+
+                        <header class="entry-header">
+
+
+                          
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-8">
+                        <figure>
+                            <a href="#"><img src="file:///E:/Serene/MAGIC/SereneGame/Police%20Officer.svg" alt="1"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Officer Vera</h3>
+
+                          
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-9">
+                        <figure>
+                            <a href="#"><img src="file:///E:/Serene/MAGIC/SereneGame/My%20Character%203.svg" alt="Image" height="320" width="300"></a>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Dr. Don</h3>
+
+                           
+                        </header>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-10 half">
+                        <figure>
+                        </figure>
+                    </div>
+
+                    <div class="event-content-wrap positioning-event-11 half">
+                        <figure>
+                            
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="homepage-next-events">
+    <div class="container">
+        <div class="row">
+            <div class="next-events-section-header">
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="next-event-wrap">
+                    <figure>
+                        
+
+                        
+                    </figure>
+
+                    <header class="entry-header">
+                        
+
+                       
+                    </header>
+
+                    <div class="entry-content">
+                       
+                    </div>
+
+                    <footer class="entry-footer">
+                       
+                    </footer>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="next-event-wrap">
+                    <figure>
+                       
+
+                        
+                    </figure>
+
+                    <header class="entry-header">
+                        
+
+                        
+                    </header>
+
+                    <div class="entry-content">
+                        
+                    </div>
+
+                    <footer class="entry-footer">
+                        
+                    </footer>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="next-event-wrap">
+                    <figure>
+                        
+
+                        
+                    </figure>
+
+                    <header class="entry-header">
+                        
+
+                        
+                    </header>
+
+                    <div class="entry-content">
+                        
+                    </div>
+
+                    <footer class="entry-footer">
+                       
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="homepage-regional-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="regional-events-heading entry-header flex flex-wrap justify-content-between align-items-center">
+                    <h2 class="entry-title">Events in New York</h2>
+
+                    <div class="select-location">
+                        
+                    </div>
+                </header>
+
+                <div class="swiper-container homepage-regional-events-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-1.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">U2 Concert </h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-2.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">Broadway Hit </h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-3.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">Gallery Exibition</h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-4.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">Art Gallery</h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-5.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">Music Concert</h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-6.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">EDM Festival</h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <figure>
+                                <img src="images/event-slider-1.jpg" alt="">
+
+                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
+                            </figure><!-- .hero-image -->
+
+                            <div class="entry-header">
+                                <h2 class="entry-title">U2 Concert </h2>
+                            </div><!--- .entry-header -->
+
+                            <div class="entry-footer">
+                                <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                            </div><!-- .entry-footer" -->
+                        </div><!-- .swiper-slide -->
+                    </div><!-- .swiper-wrapper -->
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next flex justify-content-center align-items-center">
+                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+                    </div>
+
+                    <div class="swiper-button-prev flex justify-content-center align-items-center">
+                        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg></span>
+                    </div>
+                </div><!-- .swiper-container -->
+
+                <div class="events-partners">
+                    <header class="entry-header">
+                        <h2 class="entry-title">Sources Used</h2>
+                    </header>
+
+                    <div class="events-partners-logos flex flex-wrap justify-content-between align-items-center">
+                        <div class="event-partner-logo">
+                            <a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.uK7ie3lE6ia1tjivTgsImgHaCf&pid=Api&P=0&w=478&h=162" alt=""></a>
+                        </div>
+
+                        <div class="event-partner-logo">
+                          
+                        </div>
+
+                        <div class="event-partner-logo">
+                           
+                        </div>
+
+                        <div class="event-partner-logo">
+                            <a href="#"><img src="http://flowlab.io/images/logo.png" alt=""></a>
+                        </div>
+
+                        <div class="event-partner-logo">
+                            
+                        </div>
+
+                        <div class="event-partner-logo">
+                           
+                        </div>
+
+                        <div class="event-partner-logo">
+                           
+                        </div>
+
+                        <div class="event-partner-logo">
+                            <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></a>
+                        </div>
+
+                        <div class="event-partner-logo">
+                          
+                        </div>
+
+                        <div class="event-partner-logo">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter-subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="entry-header">
+                  
+                </header>
+
+                <div class="newsletter-form">
+                    <form class="flex flex-wrap justify-content-center align-items-center">
+                        <div class="col-md-12 col-lg-3">
+                            
+                        </div>
+
+                        <div class="col-md-12 col-lg-6">
+                            
+                        </div>
+
+                        <div class="col-md-12 col-lg-3">
+                           
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <figure class="footer-logo">
+                    <a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.LC_kiv0l7SBYA9HqpeNYxgHaDW&pid=Api&P=0&w=398&h=181" alt="logo"></a>
+                </figure>
+
+                <nav class="footer-navigation">
+                    
+                    </ul>
+                </nav>
+
+               
+                <div class="footer-social">
+                    <ul class="flex flex-wrap justify-content-center align-items-center">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="back-to-top flex justify-content-center align-items-center">
+    <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+</div>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='js/circle-progress.min.js'></script>
+<script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
