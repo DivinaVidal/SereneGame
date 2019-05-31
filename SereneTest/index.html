@@ -86,19 +86,16 @@
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px" id="home">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1564px" id="home">
 <br>
 <br>
 <br>
 <br>
   <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Mystery.png" alt="logo" style="width:150px;height:100px">
-  <!--<div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
-  </div>  -->
   	  	<br>
 	<h2 float="left" class="entry-title">What is The Mystery League and why choose this game?</h2>
     </div>
-	<div class="top-info">
+	<div class="w3-container w3-padding-32" id="about" class="top-info">
         <p style="float:left;display:block;">  The Mystery League is a fun game that brings out the inner sleuth out of the player. The user is supposed to use the provided magnifying glass to spot hidden clues that goes to the storage/inventory drawer. After the 3 games, the clues that were found and stored will be used to find the criminal. 
 Hope you enjoy the game!</p>
     </div>
@@ -107,14 +104,7 @@ Hope you enjoy the game!</p>
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Project Section -->
-    <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    
-    </p>
-  </div>
-  
-  
+  <!-- Project Section -->  
   <div class="w3-container w3-padding-32" id="chars">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Characters</h3>
   </div>
@@ -157,61 +147,50 @@ Hope you enjoy the game!</p>
   <div class="w3-row-padding">
 
   </div>
-
-  <!-- Game Section
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
-  </div>  -->
   
-<div class="carocontainer">
+<div class="w3-content w3-padding" style="max-width:1564px">
   <h1>Game</h1> <br>
-  <div><p>The first slide will have a magnifying glass so  you can use to look for the items</p>
+  <div id="game"><p>The first slide will have a magnifying glass so  you can use to look for the items</p>
 <p>  Once you have found the item, click on the Next arrow in order to select the item on the image</p></div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>  -->
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-	  <p><b>Find the knife</b></p>
-		<img id="lr" src="criminal_case_living_room.jpg" alt="livingroom" style="width:560px;height:343px;">
+	  <p style="margin:25px"><b>Find the knife</b></p>
+		<img id="bed" src="bedroom.jpg" alt="bedroom" style="width:560px;height:343px">
 		
-
-        <!-- <img id="lr" src="criminal_case_living_room.jpg" alt="livingroom" style="width:50%;display:center"> -->
+      </div>
+	   <div class="item">
+		<img id="bed1" src="bedroom.jpg" alt="bedroom" style="width:560px;height:343px;display:center" usemap="#bed-map">
+	<map name="bed-map">
+			<area target="" alt="" title="" href="" coords="90,110,164,175" shape="rect" onclick="javascript:void  window.open('Guilty Character.svg','1407798238173','width=650,height=800,toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=0,top=0');return     false;">
+		</map>
+      </div>
+	  
+	      <div class="item">
+	  <p style="margin:25px"><b>Find the ear</b></p>
+		<img id="yard" src="yard.jpg" alt="yard" style="width:560px;height:343px">
       </div>
 	  
 	   <div class="item">
-		<img id="lr1" src="criminal_case_living_room.jpg" alt="livingroom" style="width:560px;height:343px;display:center" usemap="#liv-map">
-	<map name="liv-map">
-			<area target="" alt="" title="" href="Guilty Character.svg" coords="90,110,164,175" shape="rect">
+		<img id="yard1" src="yard.jpg" alt="yard1" style="width:946px;height:567px;display:center" usemap="#yard-map">
+	<map name="yard-map">
+			<area target="" alt="" title="" href="" coords="262,515,215,555" shape="rect" onclick="javascript:void  window.open('evilChar.svg','1407798238173','width=650,height=800,toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=0,top=0');return     false;">
 		</map>
+      </div>  
 
-        <!-- <img id="lr" src="criminal_case_living_room.jpg" alt="livingroom" style="width:50%;display:center"> -->
+	      <div class="item">
+	  <p style="margin:25px"><b>Find the camera</b></p>
+		<img id="office" src="office.jpg" alt="office" style="width:560px;height:343px">
       </div>
-
-      <div class="item">
-        <img id="bed" src="yard.jpg" alt="bedroom" style="width:50%">
-      </div>
-    
-      <div class="item">
-        <img id="office" src="office.jpg" alt="office" style="width:50%">
-      </div>
-    </div>
+	  
+	   <div class="item">
+		<img id="office1" src="office.jpg" alt="office1" style="width:946px;height:567px;display:center" usemap="#office-map">
+	<map name="office-map">
+			<area target="" alt="" title="" href="" coords="456,170,503,193" shape="rect" onclick="javascript:void  window.open('weirdo.svg','1407798238173','width=650,height=800,toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=0,top=0');return     false;">
+		</map>
+      </div> 
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -225,8 +204,6 @@ Hope you enjoy the game!</p>
   </div>
 </div>
 
-<!-- The notepad-->
-
 <!-- End page content -->
 </div>
 
@@ -235,12 +212,15 @@ Hope you enjoy the game!</p>
 <footer class="w3-center w3-black w3-padding-16">
   <p>Powered by the love for learning</p>
 </footer>
+
+<!-- js for magnifying glass -->
 <script>
 /* Initiate Magnify Function
 with the id of the image, and the strength of the magnifier glass:*/
 magnify("office", 2);
-/*magnify("bed", 2);*/
-magnify("lr", 2);
+magnify("yard", 2);
+magnify("bed", 2);
 </script>
+
 </body>
 </html>
